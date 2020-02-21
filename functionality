@@ -1,1 +1,15 @@
 Each individual room is a recursive function that checks the state on various objects, enemies, puzzles, etc.
+
+Health system may not be a standard "HP" mechanic but instead have a "status" mechanic. So instead of 100/100 HP that goes down over time, it a question of are they either: Healthy, lightly injured, injured, heavily injured, dead. I will put more info on this later
+
+Commands
+    Move North, South, East, West- allow the player to move in this direction if possible. The same goes for the other compass points, which can be shortened to ne, nw, se and sw.
+    Up , Down- for climbing up and down stairs, trees and so forth.
+    In, Out- for entering and leaving buildings and other structures. May be synonymous with a compass direction, in which case you'll have to make the two commands equivalent lest the player think there are two ways out instead of one.
+    Look- provides a description of the player's surroundings.
+    Examine- provides a specific description of something present in the room or that the player is carrying.
+    Get/Take, Drop- allows the player to pick up and drop items.
+    Inventory- shows the contents of the player's inventory.
+    Use (item) on (environment)- allows the player to attempt to use items in their inventory on their surrounds. (i.e. keys on locked doors, matches on candles, etc).
+    Wait- waits for a turn without doing anything.
+    Again- does the last command again.
