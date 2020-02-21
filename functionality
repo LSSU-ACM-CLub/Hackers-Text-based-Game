@@ -1,0 +1,1 @@
+Each individual room is a recursive function that checks the state on various objects, enemies, puzzles, etc.
